@@ -1,6 +1,6 @@
 import { TableRowInterface } from "../interfaces";
 
-export const data_2021: TableRowInterface[] = [
+export const DATA_2021: TableRowInterface[] = [
     {
         "userId": 1,
         "measure": 320,
@@ -118,7 +118,7 @@ export const data_2021: TableRowInterface[] = [
     }
 ];
 
-export const data_2022: TableRowInterface[] = [
+export const DATA_2022: TableRowInterface[] = [
     {
         "userId": 1,
         "measure": 320,

@@ -1,7 +1,7 @@
 import './styles/App.css'; 
 import { useState, ChangeEvent } from 'react';
 import TableComponent from './components/tableComponent';
-import { data_2021, data_2022 } from "./data/tableRowData";
+import { DATA_2021, DATA_2022 } from "./data/tableRowData";
 import { tableColumnData } from './data/tableColumnData';
 import { validMeasures } from './data/validMeasures';
 import { measureUpdates } from './data/measureUpdates';
@@ -20,8 +20,8 @@ const App = () => {
 
   /* Add more years and data arrays as needed */
   const dataByYear: DataByYearInterface = {
-    '2021': data_2021,
-    '2022': data_2022
+    '2021': DATA_2021,
+    '2022': DATA_2022
   };
 
   const handleYearChange = (event: ChangeEvent<HTMLSelectElement>) => {
