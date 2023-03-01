@@ -1,7 +1,6 @@
 export interface TableColumnInterface {
     Header: string,
-    accessor: string,
-    width: number
+    accessor: string
 }
 
 export interface TableRowInterface {
@@ -12,8 +11,26 @@ export interface TableRowInterface {
     body: string
 }
 
-
 export interface TableInterface {
     columns: TableColumnInterface[],
     data: TableRowInterface[] 
+}
+
+export interface MeasuresInterface {
+    year: number,
+    validMeasures: string[]
+}
+
+interface MeasureChangeInterface {
+    from: string,
+    to: string
+}
+
+export interface MeasureUpdatesInterface {
+    year: string,
+    measureChange: MeasureChangeInterface[]
+}
+
+export interface DataByYearInterface {
+    [year: string]: TableRowInterface[];
 }

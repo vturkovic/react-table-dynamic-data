@@ -1,4 +1,4 @@
-import { useTable } from 'react-table'
+import { useTable } from 'react-table';
  
 const TableComponent = ({ columns, data }: any) => {
 
