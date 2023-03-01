@@ -1,0 +1,37 @@
+table {
+  width: 100%;
+  border: 1px solid black;
+  user-select: none;
+}
+table thead th {
+  background: #E9E9E9;
+  color: black;
+  font-weight: bold;
+  padding: 3px;
+}
+table tbody td {
+  padding: 10px;
+}
+
+.even {
+  background: #9EC1E1;
+}
+
+.odd {
+  background: #DBDBDB;
+}
+
+.app {
+  margin: 10px;
+}
+.app h2 {
+  text-align: center;
+}
+.app .select-container {
+  margin: 5px;
+}
+.app .select-container select {
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=app.css.map */

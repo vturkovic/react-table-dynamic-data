@@ -2,23 +2,23 @@ import { TableColumnInterface } from "../interfaces";
 
 export const tableColumnData: TableColumnInterface[] = [
     {
-        Header: "userId",
+        Header: "User ID",
         accessor: "userId",
     },
     {
-        Header: "measure",
+        Header: "Measure",
         accessor: "measure",
     },
     {
-        Header: "id",
+        Header: "ID",
         accessor: "id",
     },
     {
-        Header: "title",
+        Header: "Title",
         accessor: "title",
     },
     {
-        Header: "body",
+        Header: "Body",
         accessor: "body",
     }
 ];

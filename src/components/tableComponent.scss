@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+    user-select: none;
+
+    thead {
+        th {
+            background: #E9E9E9;
+            color: black;
+            font-weight: bold;
+            padding: 4px;
+        }
+    }
+
+    tbody {
+        td {
+            padding: 10px;
+        }
+    }
+}
+
+.even {
+    background:#9EC1E1; 
+}
+
+.odd {
+    background:#DBDBDB;
+}

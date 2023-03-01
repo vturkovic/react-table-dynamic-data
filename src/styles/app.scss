@@ -1,0 +1,17 @@
+@import '../components/tableComponent.scss';
+
+.app {
+    margin: 10px;
+
+    h2 {
+        text-align: center;
+    }
+      
+    .select-container {
+        margin: 5px;
+    }
+    
+    .select-container select {
+        margin-left: 5px;
+    }
+}

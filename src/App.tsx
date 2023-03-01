@@ -1,4 +1,4 @@
-import './App.css'; 
+import './styles/App.css'; 
 import { useState, ChangeEvent } from 'react';
 import TableComponent from './components/tableComponent';
 import { data_2021, data_2022 } from "./data/tableRowData";
