@@ -1,6 +1,8 @@
+import { MeasureUpdatesInterface } from "../interfaces";
+
 /* Define measure changes for each year */
 
-export const measureUpdates = [
+export const measureUpdates: MeasureUpdatesInterface[] = [
     {
         year: '2022',
         measureChange: [
