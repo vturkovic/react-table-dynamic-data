@@ -11,23 +11,23 @@ import { DataByYearInterface } from './interfaces';
 /**
  * Define measure changes in ./data/measureUpdates 
  * Define valid measure for each year in ./data/validMeasures
+ * Define year of data for each data in ./app dataByYear
  */
-
 
 const App = () => {
 
   const [selectedYear, setSelectedYear] = useState('2021');
-
-  const handleYearChange = (event: ChangeEvent<HTMLSelectElement>) => {
-    setSelectedYear(event.target.value);
-  };
 
   /* Add more years and data arrays as needed */
   const dataByYear: DataByYearInterface = {
     '2021': data_2021,
     '2022': data_2022
   };
-  
+
+  const handleYearChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    setSelectedYear(event.target.value);
+  };
+
   const updatedData = updateMeasures(dataByYear[selectedYear], measureUpdates, selectedYear);
   const tableRowData = filterDataByValidMeasure(updatedData, selectedYear, validMeasures);
   
