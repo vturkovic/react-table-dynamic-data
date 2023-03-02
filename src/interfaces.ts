@@ -8,7 +8,8 @@ export interface TableRowInterface {
     measure: number,
     id?: number,
     title: string,
-    body: string
+    body: string,
+    naziv: string
 }
 
 export interface TableInterface {

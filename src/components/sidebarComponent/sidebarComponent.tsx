@@ -13,6 +13,6 @@ export const SidebarComponent = () => {
             </Menu>
         </Sidebar>
     );
-}
+};
 
 export default SidebarComponent;
