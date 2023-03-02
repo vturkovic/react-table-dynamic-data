@@ -21,16 +21,28 @@ table tbody td {
   background: #DBDBDB;
 }
 
-.app {
-  margin: 10px;
+.sidebar {
+  background: #2E5173;
 }
-.app h2 {
+
+#root, .app {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+}
+.app .sidebar-container {
+  background: #292a2d;
+}
+.app .content-container h2 {
   text-align: center;
 }
-.app .select-container {
+.app .content-container .select-container {
   margin: 5px;
 }
-.app .select-container select {
+.app .content-container .select-container select {
   margin-left: 5px;
 }
 

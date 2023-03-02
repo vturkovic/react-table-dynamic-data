@@ -1,17 +1,29 @@
-@import '../components/tableComponent.scss';
+@import '../components/tableComponent/tableComponent.scss';
+@import '../components/sidebarComponent/sidebarComponent.scss';
+
+#root, .app {
+    height: 100%;
+}
 
 .app {
-    margin: 10px;
+    display: flex;
+    flex-direction: row;
 
-    h2 {
-        text-align: center;
+    .sidebar-container {
+        background: #292a2d
     }
-      
-    .select-container {
-        margin: 5px;
-    }
-    
-    .select-container select {
-        margin-left: 5px;
+
+    .content-container {
+        h2 {
+            text-align: center;
+        }
+          
+        .select-container {
+            margin: 5px;
+        }
+        
+        .select-container select {
+            margin-left: 5px;
+        }
     }
 }
