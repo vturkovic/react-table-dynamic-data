@@ -1,10 +1,10 @@
 import './styles/App.css'; 
 import { useState, ChangeEvent } from 'react';
 import TableComponent from './components/tableComponent/tableComponent';
-import { DATA_2021, DATA_2022 } from "./data/tableRowData";
-import { tableColumnData } from './data/tableColumnData';
-import { validMeasures } from './data/validMeasures';
-import { measureUpdates } from './data/measureUpdates';
+import { DATA_2021, DATA_2022 } from "./data/table-data/tableRowData";
+import { tableColumnData } from './data/table-data/tableColumnData';
+import { validMeasures } from './data/measure-data/validMeasures';
+import { measureUpdates } from './data/measure-data/measureUpdates';
 import { filterDataByValidMeasure, updateMeasures, getSupportNamesFromData, filterDataBySupportName } from './service/helperService';
 import { DataByYearInterface } from './interfaces';
 import SidebarComponent from './components/sidebarComponent/sidebarComponent';

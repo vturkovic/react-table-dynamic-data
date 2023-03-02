@@ -1,4 +1,4 @@
-import { TableRowInterface } from "../interfaces";
+import { TableRowInterface } from "../../interfaces";
 
 export const DATA_2021: TableRowInterface[] = [
     {

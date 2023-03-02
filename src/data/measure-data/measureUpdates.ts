@@ -1,4 +1,4 @@
-import { MeasureUpdatesInterface } from "../interfaces";
+import { MeasureUpdatesInterface } from "../../interfaces";
 
 /* Define measure changes for each year */
 

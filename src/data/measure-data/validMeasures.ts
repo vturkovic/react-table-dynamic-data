@@ -1,4 +1,4 @@
-import { MeasuresInterface } from '../interfaces';
+import { MeasuresInterface } from '../../interfaces';
 
 /* Define list of valid measures for each year */
 

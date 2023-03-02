@@ -1,4 +1,4 @@
-import { TableColumnInterface } from "../interfaces";
+import { TableColumnInterface } from "../../interfaces";
 
 export const tableColumnData: TableColumnInterface[] = [
     {
