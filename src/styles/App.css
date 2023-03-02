@@ -23,15 +23,22 @@ table tbody td {
 
 .sidebar {
   background: #2E5173;
+  user-select: none;
 }
-
-#root, .app {
-  height: 100%;
+.sidebar .ps-menu-button.ps-open span {
+  font-weight: bold;
+}
+.sidebar .active {
+  font-weight: bold;
+}
+.sidebar span {
+  font-size: 14px;
 }
 
 .app {
   display: flex;
   flex-direction: row;
+  min-height: 100vh;
 }
 .app .sidebar-container {
   background: #292a2d;

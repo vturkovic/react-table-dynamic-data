@@ -268,4 +268,4 @@ export const DATA_2022: TableRowInterface[] = [
         "title": "adipisci placeat illum aut reiciendis qui",
         "body": "illum quis cupiditate provident sit magnam\nea sed aut omnis\nveniam maiores ullam consequatur atque\nadipisci quo iste expedita sit quos voluptas"
     }
-    ];
+];

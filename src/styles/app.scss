@@ -1,13 +1,10 @@
 @import '../components/tableComponent/tableComponent.scss';
 @import '../components/sidebarComponent/sidebarComponent.scss';
 
-#root, .app {
-    height: 100%;
-}
-
 .app {
     display: flex;
     flex-direction: row;
+    min-height: 100vh;
 
     .sidebar-container {
         background: #292a2d

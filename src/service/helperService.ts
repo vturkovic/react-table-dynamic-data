@@ -33,3 +33,12 @@ export const updateMeasures = (data: TableRowInterface[], measureUpdates: Measur
   
     return updatedData;
 };
+
+export const getSupportNamesFromData = (data: TableRowInterface[]) => {
+  const dataMaped = data.map(item => item.naziv);
+  return dataMaped.filter((value, index) => dataMaped.indexOf(value) === index);
+};
+
+export const filterDataBySupportName = (data: TableRowInterface[], supportName: string) => {
+  return data.filter(item => item.naziv === supportName);
+};

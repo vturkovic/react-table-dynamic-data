@@ -1,3 +1,18 @@
 .sidebar {
     background: #2E5173;
+    user-select: none;
+
+    .ps-menu-button.ps-open {
+        span {
+            font-weight: bold;
+        }
+    }
+    
+    .active {
+        font-weight: bold;
+    }
+
+    span {
+        font-size: 14px;
+    }
 }

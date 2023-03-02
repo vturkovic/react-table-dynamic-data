@@ -6,10 +6,10 @@ export interface TableColumnInterface {
 export interface TableRowInterface {
     userId: number,
     measure: number,
+    naziv: string,
     id?: number,
     title: string,
     body: string,
-    naziv: string
 }
 
 export interface TableInterface {
@@ -34,4 +34,9 @@ export interface MeasureUpdatesInterface {
 
 export interface DataByYearInterface {
     [year: string]: TableRowInterface[];
+}
+
+export interface SideBarPropsInterface {
+    items: string[],
+    onItemClick: (item: string) => void;
 }

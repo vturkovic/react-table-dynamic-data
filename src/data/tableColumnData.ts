@@ -10,6 +10,10 @@ export const tableColumnData: TableColumnInterface[] = [
         accessor: "measure",
     },
     {
+        Header: "Naziv",
+        accessor: "naziv",
+    },
+    {
         Header: "ID",
         accessor: "id",
     },
